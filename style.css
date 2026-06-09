@@ -299,6 +299,8 @@ a {
 .hero__image {
   width: 100%;
   height: auto;
+  object-fit: cover;
+  object-position: center 18px;
   border-radius: var(--radius-image);
   box-shadow: var(--shadow-image);
   display: block;
