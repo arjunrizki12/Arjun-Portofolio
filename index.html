@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta content="Arjun Rizki - UI/UX Designer &amp; Web Developer Portfolio" name="description" />
+  <title>Portofolio Arjun Rizki</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Manrope:wght@500;600;700;800&amp;display=swap"
+    rel="stylesheet" />
+  <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Navigasi -->
+  <nav class="navbar" id="navbar">
+    <div class="navbar__inner">
+      <a class="navbar__logo" href="#home">Arjun Rizki</a>
+      <div class="navbar__links">
+        <a class="navbar__link active" data-section="home" href="#home">Home</a>
+        <a class="navbar__link" data-section="about" href="#about">About</a>
+        <a class="navbar__link" data-section="education" href="#education">Education</a>
+        <a class="navbar__link" data-section="experience" href="#experience">Experience</a>
+        <a class="navbar__link" data-section="portfolio" href="#portfolio">Portfolio</a>
+        <a class="navbar__link" data-section="contact" href="#contact">Contact</a>
+      </div>
+      <button aria-label="Toggle menu" class="navbar__hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div class="navbar__mobile-menu" id="mobile-menu">
+      <a class="navbar__mobile-link active" data-section="home" href="#home">Home</a>
+      <a class="navbar__mobile-link" data-section="about" href="#about">About</a>
+      <a class="navbar__mobile-link" data-section="education" href="#education">Education</a>
+      <a class="navbar__mobile-link" data-section="experience" href="#experience">Experience</a>
+      <a class="navbar__mobile-link" data-section="portfolio" href="#portfolio">Portfolio</a>
+      <a class="navbar__mobile-link" data-section="contact" href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Bagian Hero -->
+  <section class="hero" id="home">
+    <div class="hero__blur-1"></div>
+    <div class="hero__blur-2"></div>
+    <div class="hero__inner">
+      <div class="hero__content">
+        <h1 class="hero__title">
+          <span class="text-dark">Hello! I'm </span><span class="text-primary">Arjun Rizki</span><br />
+          <span class="text-black"> a</span><span class="text-primary"> UI/UX Designer</span>
+          <span class="text-dark"> And</span><br />
+          <span class="text-primary">Web Developer.</span>
+        </h1>
+        <p class="hero__subtitle">
+          Passionate about creating user friendly interfaces
+          and developing responsive and
+          functional web applications.
+        </p>
+      </div>
+      <div class="hero__image-wrap">
+        <div class="hero__image-overlay"></div>
+        <img src="images/arjunprofil.png" alt="Arjun Rizki" class="hero__image"
+          onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+        
+  <!-- Placeholder Cadangan(kalo gambar gagal ditampilkan) -->
+  <div style="
+  display: none;
+  width: 100%;
+  padding-bottom: 110%;
+  background: linear-gradient(135deg, rgba(238,242,255,1) 0%, rgba(200,196,213,0.4) 100%);
+  border-radius: 16px;
+  box-shadow: 0px 8px 10px -6px rgba(0,0,0,0.3), 0px 20px 25px -5px rgba(0,0,0,0.2);
+  position: relative;
+  align-items: center;
+  justify-content: center;
+">
+  <div style="
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+">
+  <div style="
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: rgba(31, 16, 142, 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+">
+              <svg fill="none" height="40" viewbox="0 0 40 40" width="40" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="20" cy="15" fill="rgba(31,16,142,0.3)" r="8"></circle>
+                <path d="M4 36c0-8.837 7.163-16 16-16s16 7.163 16 16" stroke="rgba(31,16,142,0.3)"
+                  stroke-linecap="round" stroke-width="2"></path>
+              </svg>
+            </div>
+            <span
+              style="font-family: 'Inter', sans-serif; font-size: 13px; color: rgba(31,16,142,0.5); font-weight: 600;">arjunprofil.jpg</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- divider -->
+  <div class="section-divider"></div>
+
+  <!-- =Bagian About -->
+  <section class="about" id="about">
+    <div class="about__inner">
+      <div class="about__header reveal">
+        <h2 class="about__title">About Me</h2>
+        <div class="about__title-bar"></div>
+      </div>
+      <div class="about__body">
+        <div class="about__bio reveal">
+          <p>I am an Information Technology student at Brawijaya University with interests in UI/UX Design, Web
+            Development, and digital visual design. With extensive organizational and leadership experience, I am
+            accustomed to working in teams, managing projects, and communicating effectively to achieve shared goals.
+            With my design, visual documentation, and problem-solving skills, I am committed to creating engaging,
+            functional, and user-focused digital products.</p>
+          <p>I am continuously developing my skills in user-centered design and modern web technologies through academic
+            projects, personal learning, and hands-on practice. I enjoy transforming ideas into meaningful digital
+            solutions by combining creativity, usability, and technical implementation. My goal is to build digital
+            experiences that not only look visually appealing but also provide value, accessibility, and seamless
+            interaction for users.</p>
+        </div>
+        <div class="about__specialties reveal">
+          <span class="specialty-badge">UI/UX Design</span>
+          <span class="specialty-badge">Web Development</span>
+          <span class="specialty-badge">Creative Media</span>
+        </div>
+        <div class="about__skills-section reveal">
+          <h3 class="about__skills-title">Skills</h3>
+          <div class="about__skills-list">
+            <span class="skill-chip">Figma</span>
+            <span class="skill-chip">Canva</span>
+            <span class="skill-chip">Java</span>
+            <span class="skill-chip">HTML</span>
+            <span class="skill-chip">CSS</span>
+            <span class="skill-chip">JavaScript</span>
+            <span class="skill-chip">Premiere Pro</span>
+            <span class="skill-chip">After Effects</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- divider -->
+  <div class="section-divider"></div>
+
+  <!-- Bagian Education -->
+  <section class="education" id="education">
+    <div class="education__inner">
+      <h2 class="section-heading reveal">Educational Background</h2>
+      <div class="education__cards">
+        <div class="edu-card reveal">
+          <div class="edu-card__icon-wrap">
+            <svg class="edu-card__icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+              stroke-width="2" viewbox="0 0 24 24">
+              <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+              <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+            </svg>
+          </div>
+          <h3 class="edu-card__name">Universitas Brawijaya</h3>
+          <span class="edu-card__level">Higher Education</span>
+          <p class="edu-card__desc">Currently pursuing higher education with a focus on technology and design.</p>
+          <div class="edu-card__accent"></div>
+        </div>
+        <div class="edu-card reveal">
+          <div class="edu-card__icon-wrap">
+            <svg class="edu-card__icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+              stroke-width="2" viewbox="0 0 24 24">
+              <rect height="14" rx="2" width="20" x="2" y="3"></rect>
+              <path d="M8 21h8M12 17v4"></path>
+            </svg>
+          </div>
+          <h3 class="edu-card__name">SMAN 1 Sumberrejo</h3>
+          <span class="edu-card__level">Senior High School</span>
+          <p class="edu-card__desc">Science student with good grades and lots of experience.</p>
+          <div class="edu-card__accent"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- divider -->
+  <div class="section-divider"></div>
+
+  <!-- Bagian Pengalaman -->
+  <section class="experience" id="experience">
+    <div class="experience__inner">
+      <h2 class="experience__title reveal">Life Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-item__dot"></div>
+          <div class="timeline-item__card">
+            <div class="timeline-item__info">
+              <h3 class="timeline-item__name">Filkom Awarding Festival</h3>
+              <p class="timeline-item__role">Creative Media Division</p>
+            </div>
+            <p class="timeline-item__desc">Designed visual content, Video Editing and supported creative media
+              production for event promotion.</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-item__dot"></div>
+          <div class="timeline-item__card">
+            <div class="timeline-item__info">
+              <h3 class="timeline-item__name">Filkom Donor Darah</h3>
+              <p class="timeline-item__role">Design, Documentation, and Multimedia Division</p>
+            </div>
+            <p class="timeline-item__desc">Managed design, documentation, and multimedia content for blood donation
+              campaign.</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-item__dot"></div>
+          <div class="timeline-item__card">
+            <div class="timeline-item__info">
+              <h3 class="timeline-item__name">Generative AI Certification</h3>
+              <p class="timeline-item__role">Validation of capabilities using Generative AI</p>
+            </div>
+            <p class="timeline-item__desc">Validated skills in applying Generative AI tools for creative and productive
+              tasks.</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-item__dot"></div>
+          <div class="timeline-item__card">
+            <div class="timeline-item__info">
+              <h3 class="timeline-item__name">Youth Parliament</h3>
+              <p class="timeline-item__role">Chairman of the election commission</p>
+            </div>
+            <p class="timeline-item__desc">Led election commission activities and coordinated democratic participation
+              programs.</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-item__dot"></div>
+          <div class="timeline-item__card">
+            <div class="timeline-item__info">
+              <h3 class="timeline-item__name">Master Journalism</h3>
+              <p class="timeline-item__role">Head of master journalism</p>
+            </div>
+            <p class="timeline-item__desc">Led journalism team in producing publications, documentation, and media
+              content.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- divider -->
+  <div class="section-divider"></div>
+
+  <!-- Buat Portofolio -->
+  <section class="portfolio" id="portfolio">
+    <div class="portfolio__inner">
+      <div class="portfolio__header reveal">
+        <h2 class="portfolio__title">Portfolio</h2>
+        <p class="portfolio__subtitle">A showcase of my recent work in development and design.</p>
+      </div>
+      <div class="portfolio__grid">
+
+        <!-- Card 1: Study Space -->
+        <div class="portfolio-card reveal">
+          <div class="portfolio-card__image-wrap">
+            <a href="https://arjunrizki12.github.io/Tugas-Akhir-DDAP/" target="_blank">
+            <img src="images/studyspace.png" 
+                 alt="Study Space Project" 
+                 class="portfolio-card__image"
+                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            </a>
+            <!-- Fallback -->
+            <div class="portfolio-card__img-fallback"
+              style="display:none; width:100%; padding-bottom:60%; background:linear-gradient(135deg,rgba(238,242,255,1) 0%,rgba(200,196,213,0.5) 100%); position:relative;">
+              <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;">
+                <span
+                  style="font-family:'Inter',sans-serif;font-size:13px;color:rgba(31,16,142,0.4);font-weight:600;">studyspace.jpg</span>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-card__meta">
+            <div class="portfolio-card__info">
+              <h3 class="portfolio-card__name">Study Space</h3>
+              <p class="portfolio-card__type">Website • Location Based Service (LBS)</p>
+              <p class="portfolio-card__desc">A platform that helps students determine the best study spots based on
+                their current geographic location.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2: Website Portfolio -->
+        <div class="portfolio-card reveal">
+          <div class="portfolio-card__image-wrap">
+            <img src="images/webporto.png" alt="Website Portfolio Project" class="portfolio-card__image"
+              onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <!-- Fallback -->
+            <div class="portfolio-card__img-fallback"
+              style="display:none; width:100%; padding-bottom:60%; background:linear-gradient(135deg,rgba(239,238,233,1) 0%,rgba(195,200,193,0.5) 100%); position:relative;">
+              <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;">
+                <span
+                  style="font-family:'Inter',sans-serif;font-size:13px;color:rgba(71,89,73,0.6);font-weight:600;">webporto.jpg</span>
+              </div>
+            </div>
+            <div class="portfolio-card__overlay"></div>
+          </div>
+          <div class="portfolio-card__meta">
+            <div class="portfolio-card__info">
+              <h3 class="portfolio-card__name">Website Portofolio</h3>
+              <p class="portfolio-card__type">Website • UI/UX Design</p>
+              <p class="portfolio-card__desc">A modern portfolio website designed to showcase projects, skills, and
+                professional experiences with an intuitive user experience.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- divider -->
+  <div class="section-divider"></div>
+
+  <!-- Kontak -->
+  <section class="contact" id="contact">
+    <div class="contact__blur"></div>
+    <div class="contact__inner">
+      <h2 class="contact__title reveal">Contact me</h2>
+      <p class="contact__subtitle reveal">if you are interested in establishing cooperation</p>
+      <div class="contact__socials reveal">
+        <!-- Instagram -->
+        <a aria-label="Instagram" class="social-btn" href="https://www.instagram.com/aarjunrzki_/?__pwa=1#"
+          target="_blank" rel="noopener noreferrer">
+          <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z">
+            </path>
+          </svg>
+        </a>
+        <!-- LinkedIn -->
+        <a aria-label="LinkedIn" class="social-btn"
+          href="https://www.linkedin.com/in/arjunrizki12?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+          target="_blank" rel="noopener noreferrer">
+          <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z">
+            </path>
+          </svg>
+        </a>
+        <!-- WhatsApp -->
+        <a aria-label="WhatsApp" class="social-btn" href="https://wa.me/6285859525104" target="_blank"
+          rel="noopener noreferrer">
+          <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z">
+            </path>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div>
+        <p class="footer__name">Arjun Rizki</p>
+      </div>
+      <p class="footer__copy">© 2026 building the future with arjun rizki.</p>
+    </div>
+  </footer>
+
+  <!-- Js -->
+  <script src="script.js"></script>
+</body>
+
+</html>
